@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Link as LinkRouter} from 'react-router-dom'
 
 export const Nav = styled.nav`
-    background: #000;
+    background: gray;
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -20,4 +21,16 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
     padding: 0 24px;
     z-index: 1;
+`
+
+export const NavLogo = styled(LinkRouter)`
+    color: white;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;    
 `
