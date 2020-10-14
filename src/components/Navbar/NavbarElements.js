@@ -69,11 +69,12 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
-    height: 80px    ;
+    height: 80px;
 `
 
 export const NavLinks = styled(LinkScroll)`
     color: #fff;
+    display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
