@@ -8,7 +8,7 @@ import {
     SideBtnWrap,
     Icon, 
     CloseIcon
-}
+} from './SidebarElements'
 
 const Sidebar = () => {
     return (
@@ -18,16 +18,16 @@ const Sidebar = () => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>                
-                    <SidebarLink>About<SidebarLink>
-                    <SidebarLink>Discover</SidebarLink>
-                    <SidebarLink>Services</SidebarLink>
-                    <SidebarLink>Sign Up</SidebarLink>
+                    <SidebarLink to='about'>About<SidebarLink>
+                    <SidebarLink to='discover'>Discover</SidebarLink>
+                    <SidebarLink to='services'>Services</SidebarLink>
+                    <SidebarLink to='signup'>Sign Up</SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>
             <SideBtnWrap>
                 <SidebarRoute>Sign In</SidebarRoute>       
             </SideBtnWrap>    
-        </SidebarContainer>  
+        </SidebarContainer>
     )
 }
 
