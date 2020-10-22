@@ -25,7 +25,7 @@ const Sidebar = () => {
                 </SidebarMenu>
             </SidebarWrapper>
             <SideBtnWrap>
-                <SidebarRoute>Sign In</SidebarRoute>       
+                <SidebarRoute to='/signin'>Sign In</SidebarRoute>       
             </SideBtnWrap>    
         </SidebarContainer>
     )
