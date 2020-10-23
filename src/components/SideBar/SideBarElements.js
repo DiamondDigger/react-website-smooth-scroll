@@ -33,7 +33,7 @@ export const Icon = styled.div`
 `
 
 export const SidebarWrapper = styled.div`
-    color: #ff;
+    color: #fff;
 `
 
 export const SidebarMenu = styled.ul`
