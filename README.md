@@ -13,3 +13,8 @@ for Small screen
           
 #### - Sidebar
 <img src='public/screenshots/Sidebar.png'>
+
+#### - Sidebar
+in action
+
+<img src='public/screenshots/Sidebar.gif' width=300>
