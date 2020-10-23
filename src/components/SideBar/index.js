@@ -10,21 +10,21 @@ import {
     CloseIcon
 } from './SidebarElements'
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toggle}) => {
     return (
-        <SidebarContainer>
-            <Icon>
+        <SidebarContainer isOpen={isOpen}>
+            <Icon isOpen={isOpen} onClick={toggle}>
                 <CloseIcon />
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about'>About</SidebarLink>
-                    <SidebarLink to='discover'>Discover</SidebarLink>
-                    <SidebarLink to='services'>Services</SidebarLink>
-                    <SidebarLink to='signup'>Sign Up</SidebarLink>
+                    <SidebarLink to='about' isOpen={isOpen} onClick={toggle}>About</SidebarLink>
+                    <SidebarLink to='discover' isOpen={isOpen} onClick={toggle}>Discover</SidebarLink>
+                    <SidebarLink to='services' isOpen={isOpen} onClick={toggle}>Services</SidebarLink>
+                    <SidebarLink to='signup' isOpen={isOpen} onClick={toggle}>Sign Up</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarBtn to='/signin'>Sign In</SidebarBtn>
+                    <SidebarBtn to='/signin' isOpen={isOpen} onClick={toggle}>Sign In</SidebarBtn>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
