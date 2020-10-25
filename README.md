@@ -27,4 +27,4 @@ small screen
 #### - HeroSection 
 big screen
 
-<img src='public/screenshots/VideoBackgroundBigScreen.gif' width=600>
+<img src='public/screenshots/VideoBackgroundBigScreen.gif' >
