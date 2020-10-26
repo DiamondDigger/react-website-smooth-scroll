@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Button } from "../ButtonElement";
+
 import {
   HeroContainer,
   HeroBg,
@@ -26,11 +28,20 @@ const HeroSection = () => {
           <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Some text to subscriber your field of an activity</HeroH1>
-          <HeroP>More info to attract users</HeroP>
+          <HeroH1>Virtual Banking Made Easy</HeroH1>
+          <HeroP>
+            Sign up for a new account today and receive $250 in credit towards
+            your next payment
+          </HeroP>
           <HeroBtnWrapper>
-            <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
-              {hover ? <ArrowRight /> : <ArrowForward />}
+            <Button
+              to="signup"
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary="true"
+              dark="true"
+            >
+              Get started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
         </HeroContent>
