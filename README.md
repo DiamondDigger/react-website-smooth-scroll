@@ -18,3 +18,13 @@ for Small screen
 in action
 
 <img src='public/screenshots/Sidebar.gif' width=300>
+
+#### - HeroSection 
+small screen
+
+<img src='public/screenshots/VideoBackgroundSmallScreen.gif' width=300>
+
+#### - HeroSection 
+big screen
+
+<img src='public/screenshots/VideoBackgroundBigScreen.gif' >
