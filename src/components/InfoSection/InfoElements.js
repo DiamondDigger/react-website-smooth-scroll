@@ -81,5 +81,21 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')}
+    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+`
+
+export const BtnWrapper = styled.div`
+    display: flex;
+    justify-content: flex-start;
+`   
+
+export const ImgWrap = styled.div`
+    max-width: 555px;
+    height: 100%;
+`
+
+export const Img = styled.img`
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 0;
 `
