@@ -1,4 +1,13 @@
 import React from 'react'
+import {
+    FooterContainer,
+    FooterWrapper, 
+    FooterLinksContainer,
+    FooterLinksWrapper,
+    FooterLinkItems,
+    FooterLinkTitle,
+    FooterLink
+} from './FooterElements'
 
 const Footer = () => {
     return (
@@ -14,6 +23,7 @@ const Footer = () => {
                             <FooterLink to='/signin'>Investors</FooterLink>
                             <FooterLink to='/signin'>Terms of Service</FooterLink>
                         </FooterLinkItems>
+                        <FooterLinkItems>
                         <FooterLinkTitle>About us</FooterLinkTitle>
                             <FooterLink to='/signin'>How it works</FooterLink>
                             <FooterLink to='/signin'>Testimonials</FooterLink>
@@ -31,6 +41,7 @@ const Footer = () => {
                             <FooterLink to='/signin'>Investors</FooterLink>
                             <FooterLink to='/signin'>Terms of Service</FooterLink>
                         </FooterLinkItems>
+                        <FooterLinkItems>
                         <FooterLinkTitle>About us</FooterLinkTitle>
                             <FooterLink to='/signin'>How it works</FooterLink>
                             <FooterLink to='/signin'>Testimonials</FooterLink>
