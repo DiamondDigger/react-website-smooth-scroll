@@ -69,21 +69,18 @@ const Footer = () => {
                             <SocialLink href='//www.facebook.com' target='_blank' arial-label='Facebook'>
                                 <FaFacebook />
                             </SocialLink>
-                        <SocialIcons>
                             <SocialLink href='//instagram.com' target='_blank' arial-label='Instagram'>
                                 <FaInstagram />
                             </SocialLink>
-                        <SocialIcons>
                             <SocialLink href='//www.twitter.com' target='_blank' arial-label='Twitter'>
                                 <FaTwitter />
                             </SocialLink>
-                        <SocialIcons>
                             <SocialLink href='//www.youtube.com' target='_blank' arial-label='Youtube'>
                                 <FaYoutube />
                             </SocialLink>
                         </SocialIcons>
                     </SocialMediaWrap>
-                </SocialMedia>         
+                </SocialMedia>       
             </FooterWrapper>
         </FooterContainer>
         

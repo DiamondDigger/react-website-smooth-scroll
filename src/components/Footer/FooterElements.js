@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
 export const FooterWrapper = styled.div`
     padding: 48px 24px;
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1100px;
