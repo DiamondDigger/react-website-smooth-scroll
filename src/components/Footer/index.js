@@ -6,8 +6,15 @@ import {
     FooterLinksWrapper,
     FooterLinkItems,
     FooterLinkTitle,
-    FooterLink
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap, 
+    WebsiteRights,
+    SocialIcons,
+    SocialLink,
+    SocialLogo
 } from './FooterElements'
+
 import {
     FaFacebook,
     FaTwitter,
@@ -18,7 +25,6 @@ import {
 const Footer = () => {
     return (
         <FooterContainer>
-
             <FooterWrapper>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
@@ -55,27 +61,29 @@ const Footer = () => {
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
-                {/* <SocialMediaWrap>
-                    <SocialLogo to='/'>dolla</SocialLogo>
-                    <WebsiteRights>dolla ® {new Date().getFullYear()} All rights reserved</WebsiteRights>
-                    <SocialIcons>
-                        <SocialLink href='//www.facebook.com' target='_blank' arial-label='Facebook'>
-                            <FaFacebook />
-                        </SocialLink>
-                    <SocialIcons>
-                        <SocialLink href='//instagram.com' target='_blank' arial-label='Instagram'>
-                            <FaInstagram />
-                        </SocialLink>
-                    <SocialIcons>
-                        <SocialLink href='//www.twitter.com' target='_blank' arial-label='Twitter'>
-                            <FaTwitter />
-                        </SocialLink>
-                    <SocialIcons>
-                        <SocialLink href='//www.youtube.com' target='_blank' arial-label='Youtube'>
-                            <FaYoutube />
-                        </SocialLink>
-                    </SocialIcons>
-                </SocialMediaWrap> */}
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to='/'>dolla</SocialLogo>
+                        <WebsiteRights>dolla ® {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                        <SocialIcons>
+                            <SocialLink href='//www.facebook.com' target='_blank' arial-label='Facebook'>
+                                <FaFacebook />
+                            </SocialLink>
+                        <SocialIcons>
+                            <SocialLink href='//instagram.com' target='_blank' arial-label='Instagram'>
+                                <FaInstagram />
+                            </SocialLink>
+                        <SocialIcons>
+                            <SocialLink href='//www.twitter.com' target='_blank' arial-label='Twitter'>
+                                <FaTwitter />
+                            </SocialLink>
+                        <SocialIcons>
+                            <SocialLink href='//www.youtube.com' target='_blank' arial-label='Youtube'>
+                                <FaYoutube />
+                            </SocialLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>         
             </FooterWrapper>
         </FooterContainer>
         
