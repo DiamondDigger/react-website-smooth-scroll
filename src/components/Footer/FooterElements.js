@@ -93,6 +93,7 @@ export const SocialLogo = styled(Link)`
     text-decoration: none;
     cursor: pointer;
     margin-bottom: 16px;
+    outline: none;
 `
 
 export const WebsiteRights = styled.small`

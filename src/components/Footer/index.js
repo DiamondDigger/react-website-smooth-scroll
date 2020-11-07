@@ -1,4 +1,5 @@
 import React from 'react'
+import useScroll from '../useScroll'
 import {
     FooterContainer,
     FooterWrapper, 
@@ -23,6 +24,7 @@ import {
 } from 'react-icons/fa'
 
 const Footer = () => {
+    const {toggleIcon} = useScroll()
     return (
         <FooterContainer>
             <FooterWrapper>
@@ -63,7 +65,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>dolla</SocialLogo>
+                        <SocialLogo to='/' onClick={toggleIcon}>dolla</SocialLogo>
                         <WebsiteRights>dolla ® {new Date().getFullYear()} All rights reserved</WebsiteRights>
                         <SocialIcons>
                             <SocialLink href='//www.facebook.com' target='_blank' arial-label='Facebook'>
