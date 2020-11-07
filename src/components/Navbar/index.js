@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import { FaBars } from "react-icons/fa";
+import {IconContext} from 'react-icons/lib'
 import {
   Nav,
   NavbarContainer,
@@ -16,12 +17,14 @@ const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {
-    console.log('changeNav in work!')
-    if (window.scrollY >= 80) {
-      setScrollNav(true)
-    } else {
-      setScrollNav(false)
-    }
+
+    setScrollNav(() => {
+      if (window.scrollY >= 80) {
+        return true 
+      } else {
+        return false
+      }
+    })
   }
 
   useEffect(() => {
@@ -30,6 +33,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
+    <IconContext.Provider value={{color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/">dolla</NavLogo>
@@ -55,6 +59,7 @@ const Navbar = ({ toggle }) => {
           </NavBtn>
         </NavbarContainer>
       </Nav>
+    </IconContext.Provider>
     </>
   );
 };

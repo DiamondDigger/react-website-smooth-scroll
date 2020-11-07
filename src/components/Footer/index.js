@@ -83,7 +83,6 @@ const Footer = () => {
                 </SocialMedia>       
             </FooterWrapper>
         </FooterContainer>
-        
     )
 }
 
