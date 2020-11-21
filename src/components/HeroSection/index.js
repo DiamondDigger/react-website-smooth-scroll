@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "../ButtonElement";
+import useScroll from '../useScroll'
 
 import {
   HeroContainer,
@@ -16,6 +17,7 @@ import Video from "../../videos/video.mp4";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
+  const {linkProps} = useScroll();
 
   const onHover = () => {
     setHover(!hover);
@@ -40,6 +42,7 @@ const HeroSection = () => {
               onMouseLeave={onHover}
               primary="true"
               dark="true"
+              {...linkProps}
             >
               Get started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
