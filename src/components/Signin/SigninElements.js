@@ -101,9 +101,9 @@ export const FormButton = styled.button`
     cursor: pointer;
 `
 
-export const Text = styled.text`
+export const FormH3 = styled.h3`
     text-align: center;
     margin-top: 24px;
     color: #fff;
     font-size: 14px;
-`
+    `
