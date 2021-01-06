@@ -28,3 +28,18 @@ small screen
 big screen
 
 <img src='public/screenshots/VideoBackgroundBigScreen.gif' >
+
+#### - InfoSection 
+big screen
+
+<img src='public/screenshots/InfoSection.gif' >
+
+#### - Services 
+big screen
+
+<img src='public/screenshots/Services.gif' >
+
+#### - Signin 
+big screen
+
+<img src='public/screenshots/SignIn.gif' >
