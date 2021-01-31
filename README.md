@@ -1,6 +1,7 @@
 ## react-website-smooth-scroll
 Build a React website using styled components and React smooth scroll.
-The website is fully responsive and we will be using React Hooks and React Router for this project
+The website is fully responsive. 
+Also, I used React Hooks and React Router for this project
 
 ### Components : 
 #### - Navbar
